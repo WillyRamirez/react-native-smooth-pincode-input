@@ -10,6 +10,8 @@ declare module "react-native-smooth-pincode-input" {
     cellStyle?: ViewStyle;
     cellStyleFocused?: ViewStyle;
     cellTextStyle?: TextStyle;
+    restrictToNumbers?: boolean;
+    autoFocus?: boolean;
     // ... add any other props that your fork supports
   }
 
